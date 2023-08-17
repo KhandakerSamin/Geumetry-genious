@@ -159,7 +159,7 @@ function addToCalculationEntry(areaType, area) {
 
     const p = document.createElement('p');
     // p.innerHTML =areaType + ' ' + area;
-    p.innerHTML = `${count + 1} . ${areaType} ${area}  cm<sup>2</sup> <button class="btn btn-primary btn-sm ml-3 mt-2" > Convert </button>`
+    p.innerHTML = `${count + 1} . ${areaType} : ${area}  cm<sup>2</sup> <button class="btn btn-primary btn-sm ml-3 mt-2" > Convert </button>`
 
     calculationEntry.appendChild(p);
 }
